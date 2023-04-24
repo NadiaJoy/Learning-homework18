@@ -4,9 +4,9 @@ Check-list UI Profile Esto:
 
 N | Check Name   |
 -- | -------------|
-1 | Log-in successfully with correct login and pass |
-2 | Log-in successfully with Smart ID |
-3 | Log-in successfully with Mobile ID |
+1 | Login successfully with correct login and pass |
+2 | Login successfully with Smart ID |
+3 | Login successfully with Mobile ID |
 --
 4 | Log-in failed with incorrect login  |
 5 | Log-in failed with correct login and incorrect pass |
