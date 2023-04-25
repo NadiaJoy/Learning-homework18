@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d98335f-5b7e-4d19-bbbf-e611d5684e9b" name="Changes" comment="Initial commit for readme file">
-      <change afterPath="$PROJECT_DIR$/settings.example.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SetupFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6d98335f-5b7e-4d19-bbbf-e611d5684e9b" name="Changes" comment="Homework 18">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SetupFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/SetupFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/UITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,33 +55,39 @@
       <recent name="C:\Users\Margo\IdeaProjects\Learning-homework18" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UITest">
-    <configuration name="UITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UITest.incorrectIdSmartIdTest">
+    <configuration name="UITest.correctIdSmartIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UITest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UITest" />
+      <option name="METHOD_NAME" value="correctIdSmartIdTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UITest.correctLoginMobileIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UITest.correctPhoneAndIdMobileIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning-homework18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UITest" />
-      <option name="METHOD_NAME" value="correctLoginMobileIdTest" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UITest" />
+      <option name="METHOD_NAME" value="correctPhoneAndIdMobileIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,13 +97,29 @@
       <module name="Learning-homework18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UITest" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UITest" />
       <option name="METHOD_NAME" value="emptyLoginPasswordTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest.incorrectIdSmartIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learning-homework18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UITest" />
+      <option name="METHOD_NAME" value="incorrectIdSmartIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,29 +129,13 @@
       <module name="Learning-homework18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UITest" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.UITest" />
       <option name="METHOD_NAME" value="openLoginPasswordTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UITest.wrongLoginSmartIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Learning-homework18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UITest" />
-      <option name="METHOD_NAME" value="wrongLoginSmartIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UITest" />
+        <item itemvalue="JUnit.UITest.incorrectIdSmartIdTest" />
         <item itemvalue="JUnit.UITest.emptyLoginPasswordTest" />
-        <item itemvalue="JUnit.UITest.wrongLoginSmartIdTest" />
         <item itemvalue="JUnit.UITest.openLoginPasswordTest" />
-        <item itemvalue="JUnit.UITest.correctLoginMobileIdTest" />
+        <item itemvalue="JUnit.UITest.correctPhoneAndIdMobileIdTest" />
+        <item itemvalue="JUnit.UITest.correctIdSmartIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682356532375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework 18">
+      <created>1682429642228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682429642228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,15 +190,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for readme file" />
+    <MESSAGE value="Homework 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/UITest.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/test/java/testCases/UITest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
